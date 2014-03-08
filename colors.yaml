@@ -324,12 +324,13 @@
   :fg: 252
   :bg: 239
 
+
 # ======================================
-# completion-mode
+# completion-mode: the screen you get when you press <Tab> in the To: prompt
 
 :completion_character:
-  :fg: 252
-  :bg: 53
+  :fg: black
+  :bg: 220
 
 
 # ======================================
@@ -344,3 +345,5 @@
 :generic_notice_patina:
   :fg: cyan
   :bg: 234
+
+# TODO: contact-list-mode colors!
