@@ -10,6 +10,7 @@
 
 
 # the colors used, their palette index
+# see https://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg
 # ---- many shades of gray
 # 230 statusbar foreground light-gray
 # 232 twiddle background very dark gray
@@ -164,7 +165,7 @@
   :attrs:
   - bold
 
-# message header
+# message header, alternating color
 :alternate_patina:
   :highlight: default_highlight
   :fg: 234
@@ -343,10 +344,12 @@
   :fg: black
   :bg: red
 
+# what's a generic notice?
 :generic_notice_patina:
   :fg: cyan
   :bg: 234
 
+# what's an option?
 :option:
   :fg: 252
   :bg: 234
