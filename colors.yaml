@@ -148,6 +148,15 @@
   :attrs:
   - bold
 
+# subject of draft messages in index mode
+:index_draft:
+  :highlight: index_draft_highlight
+  :fg: 173
+  :bg: 234
+:index_draft_highlight:
+  :fg: 173
+  :bg: 239
+
 # ======================================
 # thread-view-mode
 
@@ -301,6 +310,15 @@
   :fg: black
   :bg: 220
 
+# in thread-view-mode, the text saying "This message is a draft. Hit 'e' to edit, 'y' to send."
+:draft_notification:
+  :fg: 173
+  :bg: 234
+  :highlight: draft_notification_highlight
+:draft_notification_highlight:
+  :fg: 173
+  :bg: 239
+
 # ======================================
 # selector widgets (the things that let you choose Account, Crypto, Reply to, etc.)
 
@@ -331,14 +349,9 @@
   :fg: 252
   :bg: 53
 
+
 # ======================================
 # not yet finished
-
-:draft_notification:
-  :fg: black
-  :bg: red
-  :attrs:
-  - bold
 
 :missing_message:
   :fg: black
@@ -353,9 +366,3 @@
 :option:
   :fg: 252
   :bg: 234
-
-:index_draft:
-  :fg: red
-  :bg: 234
-  :attrs:
-  - bold
