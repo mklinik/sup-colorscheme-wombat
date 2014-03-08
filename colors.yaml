@@ -184,9 +184,12 @@
 
 # line that says "an unreceived message" in thread-view-mode
 :missing_message:
-  :fg: 234
-  :bg: 173
-  :highlight: default_highlight
+  :fg: 173
+  :bg: 236
+  :highlight: missing_message_highlight
+:missing_message_highlight:
+  :fg: 173
+  :bg: 239
 
 # quoted text in a message body
 :quote:
