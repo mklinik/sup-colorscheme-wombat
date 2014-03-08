@@ -20,6 +20,7 @@
 # 252 default text color light-gray
 # ---- other colors
 #  11 yellow
+# 220 not-so-bright-yellow
 # 113 light green
 # 192 light yellow-green
 # 111 light blue
@@ -260,12 +261,6 @@
 # ======================================
 # label list (the thing you get by pressing L then <enter>)
 
-:labellist_new:
-  :fg: black
-  :bg: red
-  :attrs:
-  - bold
-
 :labellist_old:
   :highlight: default_highlight
   :fg: 252
@@ -300,10 +295,10 @@
 :search_highlight:
   :highlight: search_highlight_highlight
   :fg: black
-  :bg: 11
+  :bg: 220
 :search_highlight_highlight:
   :fg: black
-  :bg: 11
+  :bg: 220
 
 # ======================================
 # reply-mode
