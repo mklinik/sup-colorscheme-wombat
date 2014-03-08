@@ -9,4 +9,18 @@ Requires running sup in a 256-color terminal.
 
 Usage: put the file at ~/.sup/colors.yaml
 
-![screenshot of the index-mode](https://raw.github.com/mklinik/sup-colorscheme-wombat/master/screenshots/index-view.png "screenshot of the index-mode")
+Wombat comes in two flavors. Index mode looks the same in both: 
+
+![index-mode screenshot](https://raw.github.com/mklinik/sup-colorscheme-wombat/master/screenshots/index-view.png "index-mode screenshot")
+
+Thread view mode is available in normal and inverted.
+
+Normal
+------
+
+![thread-view normal screenshot](https://raw.github.com/mklinik/sup-colorscheme-wombat/master/screenshots/thread-view.png "thread-view normal screenshot")
+
+Inverted
+--------
+
+![thread-view inverted screenshot](https://raw.github.com/mklinik/sup-colorscheme-wombat/master/screenshots/thread-view-inverted.png "thread-view inverted screenshot")
