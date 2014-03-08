@@ -223,24 +223,36 @@
   :bg: 239
 
 
+# valid cryptographic signature
 :cryptosig_valid:
   :highlight: cryptosig_valid_highlight
-  :fg: 11
+  :fg: 241
   :bg: 234
 :cryptosig_valid_highlight:
-  :fg: 11
+  :fg: 252
   :bg: 239
 
+# signature from someone whose public key we do have, but haven't verified
+:cryptosig_valid_untrusted:
+  :highlight: cryptosig_valid_untrusted_highlight
+  :fg: 173
+  :bg: 234
+:cryptosig_valid_untrusted_highlight:
+  :fg: 173
+  :bg: 239
+
+# signature from someone whose public key we don't have
 :cryptosig_unknown:
   :highlight: cryptosig_unknown_highlight
-  :fg: 113
+  :fg: 173
   :bg: 234
 :cryptosig_unknown_highlight:
-  :fg: 113
+  :fg: 173
   :bg: 239
 
+# I don't have a message with an invalid crypto signature, so this is untested
 :cryptosig_invalid:
-  :fg: red
+  :fg: 173
   :bg: 234
   :attrs:
   - bold
