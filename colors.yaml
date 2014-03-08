@@ -224,12 +224,9 @@
 
 # valid cryptographic signature
 :cryptosig_valid:
-  :highlight: cryptosig_valid_highlight
+  :highlight: default_highlight
   :fg: 241
   :bg: 234
-:cryptosig_valid_highlight:
-  :fg: 252
-  :bg: 239
 
 # signature from someone whose public key we do have, but haven't verified
 :cryptosig_valid_untrusted:
@@ -317,12 +314,9 @@
   :bg: 239
 
 :horizontal_selector_unselected:
-  :highlight: horizontal_selector_unselected_highlight
+  :highlight: default_highlight
   :fg: 252
   :bg: 234
-:horizontal_selector_unselected_highlight:
-  :fg: 252
-  :bg: 239
 
 
 # ======================================
