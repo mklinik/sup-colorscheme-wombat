@@ -8,3 +8,5 @@ Requires running sup in a 256-color terminal.
 (I'm using the debian package rxvt-unicode-256color)
 
 Usage: put the file at ~/.sup/colors.yaml
+
+![screenshot of the index-mode](https://raw.github.com/mklinik/sup-colorscheme-wombat/master/screenshots/index-view.png "screenshot of the index-mode")
