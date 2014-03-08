@@ -148,27 +148,39 @@
 
 # message header
 :message_patina:
-  :highlight: default_highlight
-  :fg: 234
-  :bg: c030
-
-# the single star character
-:starred_patina:
-  :highlight: default_highlight
-  :fg: 11 # 234
-  :bg: c030
+  :highlight: message_patina_highlight
+  :fg: 192
+  :bg: 236
+:message_patina_highlight:
+  :fg: 192
+  :bg: 239
 
 # message header, alternating color
 :alternate_patina:
-  :highlight: default_highlight
-  :fg: 234
-  :bg: 111
+  :highlight: alternate_patina_highlight
+  :fg: 111
+  :bg: 236
+:alternate_patina_highlight:
+  :fg: 111
+  :bg: 239
 
 # the single star character
+:starred_patina:
+  :highlight: starred_patina_highlight
+  :fg: 220
+  :bg: 236
+:starred_patina_highlight:
+  :fg: 220
+  :bg: 239
+
+# the single star character, alternating color
 :alternate_starred_patina:
-  :highlight: default_highlight
-  :fg: 11
-  :bg: 111
+  :highlight: alternate_starred_patina_highlight
+  :fg: 220
+  :bg: 236
+:alternate_starred_patina_highlight:
+  :fg: 220
+  :bg: 239
 
 # line that says "an unreceived message" in thread-view-mode
 :missing_message:
