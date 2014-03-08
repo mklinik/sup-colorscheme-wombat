@@ -301,16 +301,16 @@
   :bg: 220
 
 # ======================================
-# reply-mode
+# selector widgets (the things that let you choose Account, Crypto, Reply to, etc.)
 
 :horizontal_selector_selected:
   :highlight: horizontal_selector_selected_highlight
-  :fg: 11
+  :fg: 220
   :bg: 234
   :attrs:
   - bold
 :horizontal_selector_selected_highlight:
-  :fg: 11
+  :fg: 220
   :bg: 239
   :attrs:
   - bold
