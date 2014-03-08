@@ -41,9 +41,9 @@
 
 # default text color, if nothing else is specified
 :text:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 # the default cursor line
 # doesn't do anything on its own, we have to refer to it explicitly
@@ -55,90 +55,90 @@
 # thread-index-mode
 
 :date:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 # the single '>' character displayed when a message is directly to me (as
 # opposed to say a mailing list that I subscribed to)
 :to_me:
-  :highlight: to_me_highlight
   :fg: 113
   :bg: 234
+  :highlight: to_me_highlight
 :to_me_highlight:
   :fg: 113
   :bg: 239
 
 :size_widget:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 # email subject of read messages
 :index_old:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 # email subject of unread messages
 :index_new:
-  :highlight: index_new_highlight
   :fg: 220
   :bg: 234
+  :highlight: index_new_highlight
 :index_new_highlight:
   :fg: 220
   :bg: 239
 
 # text snipped displayed next to the subject
 :snippet:
-  :highlight: snippet_highlight
   :fg: 113
   :bg: 234
+  :highlight: snippet_highlight
 :snippet_highlight:
   :fg: 113
   :bg: 239
 
 # labels of an email
 :label:
-  :highlight: label_highlight
   :fg: 111
   :bg: 234
+  :highlight: label_highlight
 :label_highlight:
   :fg: 111
   :bg: 239
 
 # the '>' character that gets displayed when a message is tagged
 :tagged:
-  :highlight: tagged_highlight
   :fg: 220
   :bg: 234
+  :highlight: tagged_highlight
 :tagged_highlight:
   :fg: 220
   :bg: 239
 
 # the one-character widget '*' that gets displayed when a message is starred
 :starred:
-  :highlight: starred_highlight
   :fg: 220
   :bg: 234
+  :highlight: starred_highlight
 :starred_highlight:
   :fg: 220
   :bg: 239
 
 # subject of a starred message
 :index_starred:
-  :highlight: index_starred_highlight
   :fg: 220
   :bg: 234
+  :highlight: index_starred_highlight
 :index_starred_highlight:
   :fg: 220
   :bg: 239
 
 # subject of draft messages in index mode
 :index_draft:
-  :highlight: index_draft_highlight
   :fg: 173
   :bg: 234
+  :highlight: index_draft_highlight
 :index_draft_highlight:
   :fg: 173
   :bg: 239
@@ -148,36 +148,36 @@
 
 # message header
 :message_patina:
-  :highlight: message_patina_highlight
   :fg: 232
   :bg: 192
+  :highlight: message_patina_highlight
 :message_patina_highlight:
   :fg: 192
   :bg: 239
 
 # message header, alternating color
 :alternate_patina:
-  :highlight: alternate_patina_highlight
   :fg: 232
   :bg: 111
+  :highlight: alternate_patina_highlight
 :alternate_patina_highlight:
   :fg: 111
   :bg: 239
 
 # the single star character
 :starred_patina:
-  :highlight: starred_patina_highlight
   :fg: 232
   :bg: 192
+  :highlight: starred_patina_highlight
 :starred_patina_highlight:
   :fg: 192
   :bg: 239
 
 # the single star character, alternating color
 :alternate_starred_patina:
-  :highlight: alternate_starred_patina_highlight
   :fg: 232
   :bg: 111
+  :highlight: alternate_starred_patina_highlight
 :alternate_starred_patina_highlight:
   :fg: 111
   :bg: 239
@@ -193,45 +193,45 @@
 
 # quoted text in a message body
 :quote:
-  :highlight: quote_highlight
   :fg: 113
   :bg: 234
+  :highlight: quote_highlight
 :quote_highlight:
   :fg: 113
   :bg: 239
 
 # the line of text that says "+ (n quoted lines)"
 :quote_patina:
-  :highlight: quote_patina_highlight
   :fg: 113
   :bg: 234
+  :highlight: quote_patina_highlight
 :quote_patina_highlight:
   :fg: 113
   :bg: 239
 
 # email signatures inside an email body
 :sig:
-  :highlight: sig_highlight
   :fg: 113
   :bg: 234
+  :highlight: sig_highlight
 :sig_highlight:
   :fg: 113
   :bg: 239
 
 # the line of text that says "+ (n-line signature)"
 :sig_patina:
-  :highlight: sig_patina_highlight
   :fg: 113
   :bg: 234
+  :highlight: sig_patina_highlight
 :sig_patina_highlight:
   :fg: 113
   :bg: 239
 
 # attachments at the end of an email
 :attachment:
-  :highlight: attachment_highlight
   :fg: 111
   :bg: 234
+  :highlight: attachment_highlight
 :attachment_highlight:
   :fg: 111
   :bg: 239
@@ -239,24 +239,24 @@
 
 # valid cryptographic signature
 :cryptosig_valid:
-  :highlight: default_highlight
   :fg: 241
   :bg: 234
+  :highlight: default_highlight
 
 # signature from someone whose public key we do have, but haven't verified
 :cryptosig_valid_untrusted:
-  :highlight: cryptosig_valid_untrusted_highlight
   :fg: 173
   :bg: 234
+  :highlight: cryptosig_valid_untrusted_highlight
 :cryptosig_valid_untrusted_highlight:
   :fg: 173
   :bg: 239
 
 # signature from someone whose public key we don't have
 :cryptosig_unknown:
-  :highlight: cryptosig_unknown_highlight
   :fg: 173
   :bg: 234
+  :highlight: cryptosig_unknown_highlight
 :cryptosig_unknown_highlight:
   :fg: 173
   :bg: 239
@@ -270,14 +270,14 @@
 # label list (the thing you get by pressing L then <enter>)
 
 :labellist_old:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 :labellist_new:
-  :highlight: labellist_new_highlight
   :fg: 220
   :bg: 234
+  :highlight: labellist_new_highlight
 :labellist_new_highlight:
   :fg: 220
   :bg: 239
@@ -286,24 +286,24 @@
 # misc
 
 :regular_buf:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 :system_buf:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 :modified_buffer:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 :search_highlight:
-  :highlight: search_highlight_highlight
   :fg: black
   :bg: 220
+  :highlight: search_highlight_highlight
 :search_highlight_highlight:
   :fg: black
   :bg: 220
@@ -321,17 +321,17 @@
 # selector widgets (the things that let you choose Account, Crypto, Reply to, etc.)
 
 :horizontal_selector_selected:
-  :highlight: horizontal_selector_selected_highlight
   :fg: 220
   :bg: 234
+  :highlight: horizontal_selector_selected_highlight
 :horizontal_selector_selected_highlight:
   :fg: 220
   :bg: 239
 
 :horizontal_selector_unselected:
-  :highlight: default_highlight
   :fg: 252
   :bg: 234
+  :highlight: default_highlight
 
 
 # ======================================
