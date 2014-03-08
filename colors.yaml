@@ -1,0 +1,351 @@
+---
+
+# Sup color scheme based on vim's wombat.
+# http://dengmao.wordpress.com/2007/01/22/vim-color-scheme-wombat/
+#
+# Requires running sup in a 256-color terminal.
+# (I'm using the debian package rxvt-unicode-256color)
+#
+# Usage: put the file at ~/.sup/colors.yaml
+
+
+# the colors used, their palette index
+# ---- many shades of gray
+# 230 statusbar foreground light-gray
+# 232 twiddle background very dark gray
+# 234 default background dark gray
+# 238 statusbar background medium-gray
+# 239 cursor background medium-gray
+# 241 twiddle foreground dark gray 
+# 252 default text color light-gray
+# ---- other colors
+#  11 yellow
+# 113 light green
+# 192 light yellow-green
+# 111 light blue
+# 173 orange-red
+
+
+# ======================================
+# globals
+
+:status:
+  :fg: 230
+  :bg: 238
+  :attrs:
+  - bold
+
+:twiddle:
+  :fg: 241
+  :bg: 232
+
+# default text color, if nothing else is specified
+:text:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+# the default cursor line
+# doesn't do anything on its own, we have to refer to it explicitly
+:default_highlight:
+  :fg: 252
+  :bg: 239
+
+# ======================================
+# thread-index-mode
+
+:date:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+# the single '>' character displayed when a message is directly to me (as
+# opposed to say a mailing list that I subscribed to)
+:to_me:
+  :highlight: to_me_highlight
+  :fg: 113
+  :bg: 234
+:to_me_highlight:
+  :fg: 113
+  :bg: 239
+
+:size_widget:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+# email subject of read messages
+:index_old:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+# email subject of unread messages
+:index_new:
+  :highlight: index_new_highlight
+  :fg: 11
+  :bg: 234
+:index_new_highlight:
+  :fg: 11
+  :bg: 239
+
+# text snipped displayed next to the subject
+:snippet:
+  :highlight: snippet_highlight
+  :fg: 113
+  :bg: 234
+:snippet_highlight:
+  :fg: 113
+  :bg: 239
+
+# labels of an email
+:label:
+  :highlight: label_highlight
+  :fg: 111
+  :bg: 234
+:label_highlight:
+  :fg: 111
+  :bg: 239
+
+# the '>' character that gets displayed when a message is tagged
+:tagged:
+  :highlight: tagged_highlight
+  :fg: 11
+  :bg: 234
+  :attrs:
+  - bold
+:tagged_highlight:
+  :fg: 11
+  :bg: 239
+  :attrs:
+  - bold
+
+# the one-character widget '*' that gets displayed when a message is starred
+:starred:
+  :highlight: starred_highlight
+  :fg: 11
+  :bg: 234
+  :attrs:
+  - bold
+:starred_highlight:
+  :fg: 11
+  :bg: 239
+  :attrs:
+  - bold
+
+# subject of a starred message
+:index_starred:
+  :highlight: index_starred_highlight
+  :fg: 11
+  :bg: 234
+  :attrs:
+  - bold
+:index_starred_highlight:
+  :fg: 11
+  :bg: 239
+  :attrs:
+  - bold
+
+# ======================================
+# thread-view-mode
+
+# message header
+:message_patina:
+  :highlight: default_highlight
+  :fg: 234
+  :bg: c030
+
+# the single star character
+:starred_patina:
+  :highlight: default_highlight
+  :fg: 11 # 234
+  :bg: c030
+  :attrs:
+  - bold
+
+# message header
+:alternate_patina:
+  :highlight: default_highlight
+  :fg: 234
+  :bg: 111
+
+# the single star character
+:alternate_starred_patina:
+  :highlight: default_highlight
+  :fg: 11
+  :bg: 111
+  :attrs:
+  - bold
+
+# quoted text in a message body
+:quote:
+  :highlight: quote_highlight
+  :fg: 113
+  :bg: 234
+:quote_highlight:
+  :fg: 113
+  :bg: 239
+
+# the line of text that says "+ (n quoted lines)"
+:quote_patina:
+  :highlight: quote_patina_highlight
+  :fg: 113
+  :bg: 234
+:quote_patina_highlight:
+  :fg: 113
+  :bg: 239
+
+# email signatures inside an email body
+:sig:
+  :highlight: sig_highlight
+  :fg: 113
+  :bg: 234
+:sig_highlight:
+  :fg: 113
+  :bg: 239
+
+# the line of text that says "+ (n-line signature)"
+:sig_patina:
+  :highlight: sig_patina_highlight
+  :fg: 113
+  :bg: 234
+:sig_patina_highlight:
+  :fg: 113
+  :bg: 239
+
+# attachments at the end of an email
+:attachment:
+  :highlight: attachment_highlight
+  :fg: 111
+  :bg: 234
+:attachment_highlight:
+  :fg: 111
+  :bg: 239
+
+
+:cryptosig_valid:
+  :highlight: cryptosig_valid_highlight
+  :fg: 11
+  :bg: 234
+:cryptosig_valid_highlight:
+  :fg: 11
+  :bg: 239
+
+:cryptosig_unknown:
+  :highlight: cryptosig_unknown_highlight
+  :fg: 113
+  :bg: 234
+:cryptosig_unknown_highlight:
+  :fg: 113
+  :bg: 239
+
+:cryptosig_invalid:
+  :fg: red
+  :bg: 234
+  :attrs:
+  - bold
+
+# ======================================
+# label list (the thing you get by pressing L then <enter>)
+
+:labellist_new:
+  :fg: black
+  :bg: red
+  :attrs:
+  - bold
+
+:labellist_old:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+:labellist_new:
+  :highlight: labellist_new_highlight
+  :fg: 11
+  :bg: 234
+:labellist_new_highlight:
+  :fg: 11
+  :bg: 239
+
+# ======================================
+# misc
+
+:regular_buf:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+:system_buf:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+:modified_buffer:
+  :highlight: default_highlight
+  :fg: 252
+  :bg: 234
+
+:search_highlight:
+  :highlight: search_highlight_highlight
+  :fg: black
+  :bg: 11
+:search_highlight_highlight:
+  :fg: black
+  :bg: 11
+
+# ======================================
+# reply-mode
+
+:horizontal_selector_selected:
+  :highlight: horizontal_selector_selected_highlight
+  :fg: 11
+  :bg: 234
+  :attrs:
+  - bold
+:horizontal_selector_selected_highlight:
+  :fg: 11
+  :bg: 239
+  :attrs:
+  - bold
+
+:horizontal_selector_unselected:
+  :highlight: horizontal_selector_unselected_highlight
+  :fg: 252
+  :bg: 234
+:horizontal_selector_unselected_highlight:
+  :fg: 252
+  :bg: 239
+
+# ======================================
+# completion-mode
+
+:completion_character:
+  :fg: 252
+  :bg: 53
+
+# ======================================
+# not yet finished
+
+:draft_notification:
+  :fg: black
+  :bg: red
+  :attrs:
+  - bold
+
+:missing_message:
+  :fg: black
+  :bg: red
+
+:generic_notice_patina:
+  :fg: cyan
+  :bg: 234
+
+:option:
+  :fg: 252
+  :bg: 234
+
+:index_draft:
+  :fg: red
+  :bg: 234
+  :attrs:
+  - bold
