@@ -84,10 +84,10 @@
 # email subject of unread messages
 :index_new:
   :highlight: index_new_highlight
-  :fg: 11
+  :fg: 220
   :bg: 234
 :index_new_highlight:
-  :fg: 11
+  :fg: 220
   :bg: 239
 
 # text snipped displayed next to the subject
@@ -111,12 +111,12 @@
 # the '>' character that gets displayed when a message is tagged
 :tagged:
   :highlight: tagged_highlight
-  :fg: 11
+  :fg: 220
   :bg: 234
   :attrs:
   - bold
 :tagged_highlight:
-  :fg: 11
+  :fg: 220
   :bg: 239
   :attrs:
   - bold
@@ -124,12 +124,12 @@
 # the one-character widget '*' that gets displayed when a message is starred
 :starred:
   :highlight: starred_highlight
-  :fg: 11
+  :fg: 220
   :bg: 234
   :attrs:
   - bold
 :starred_highlight:
-  :fg: 11
+  :fg: 220
   :bg: 239
   :attrs:
   - bold
@@ -137,12 +137,12 @@
 # subject of a starred message
 :index_starred:
   :highlight: index_starred_highlight
-  :fg: 11
+  :fg: 220
   :bg: 234
   :attrs:
   - bold
 :index_starred_highlight:
-  :fg: 11
+  :fg: 220
   :bg: 239
   :attrs:
   - bold
@@ -268,10 +268,10 @@
 
 :labellist_new:
   :highlight: labellist_new_highlight
-  :fg: 11
+  :fg: 220
   :bg: 234
 :labellist_new_highlight:
-  :fg: 11
+  :fg: 220
   :bg: 239
 
 # ======================================
