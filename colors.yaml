@@ -188,6 +188,12 @@
   :attrs:
   - bold
 
+# line that says "an unreceived message" in thread-view-mode
+:missing_message:
+  :fg: 234
+  :bg: 173
+  :highlight: default_highlight
+
 # quoted text in a message body
 :quote:
   :highlight: quote_highlight
@@ -353,16 +359,12 @@
 # ======================================
 # not yet finished
 
-:missing_message:
-  :fg: black
-  :bg: red
+# what's an option?
+:option:
+  :fg: 252
+  :bg: 234
 
 # what's a generic notice?
 :generic_notice_patina:
   :fg: cyan
-  :bg: 234
-
-# what's an option?
-:option:
-  :fg: 252
   :bg: 234
