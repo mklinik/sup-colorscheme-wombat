@@ -316,6 +316,13 @@
   :fg: 173
   :bg: 239
 
+# currently only used for enclosed messages. It's a line that says "Begin enclosed message sent on..."
+# We color it the same as attachments.
+:generic_notice_patina:
+  :fg: 111
+  :bg: 234
+  :highlight: attachment_highlight
+
 # ======================================
 # selector widgets (the things that let you choose Account, Crypto, Reply to, etc.)
 
@@ -347,9 +354,4 @@
 # what's an option?
 :option:
   :fg: 252
-  :bg: 234
-
-# what's a generic notice?
-:generic_notice_patina:
-  :fg: cyan
   :bg: 234
